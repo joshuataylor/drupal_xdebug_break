@@ -1,0 +1,5 @@
+services:
+  xdebug_break.twig.xdebug_break_extension:
+    class: Drupal\xdebug_break\Twig\XDebugBreakExtension
+    tags:
+      - { name: twig.extension }
